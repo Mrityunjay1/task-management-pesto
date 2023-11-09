@@ -23,7 +23,7 @@ function Header({ pageTitle }) {
       <h1>{pageTitle}</h1>
 
       <div className="header-btns">
-        <NavLink to="/tasks">
+        <NavLink to="/">
           <button className="btn">Tasks</button>
         </NavLink>
 
